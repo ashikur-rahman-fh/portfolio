@@ -1,13 +1,19 @@
 import './App.css';
-import { ReactP5Wrapper } from 'react-p5-wrapper';
-import BallLeft from './BallLeft';
-import BallRight from './BallRight';
+import Rainfall from './sketches/RainFall';
 
 function App() {
+
   return (
-    <div className="App">
-      <ReactP5Wrapper sketch={BallLeft}/>
-      <ReactP5Wrapper sketch={BallRight}/>
+    <div style={{ textAlign: 'center', fontSize: '40px', fontWeight: '700' }} className="App">
+      Under contruction
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <Rainfall
+          width={1200}
+          height={400}
+          background="rgba(120, 120, 120, 1)"
+          color="rgba(250, 250, 250, 0.5)"
+        />
+      </div>
     </div>
   );
 }

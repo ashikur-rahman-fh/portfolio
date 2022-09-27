@@ -3,17 +3,19 @@ import React from "react";
 import TypingAnimator from "../../TypingAnimator";
 
 import { PROFILE } from "../../constants";
+import { HOME_SUFFIX } from "./constants";
 
 import "./style.css";
 
 const Home = (props) => {
+    const displayText = `${PROFILE.NAME}${HOME_SUFFIX }`
     return (
         <div className="home-container">
             <a className="home-link" href="/">
                 <TypingAnimator
-                    content={PROFILE.NAME}
+                    content={displayText}
                     styleConfiguration={{
-                        textTransform: 'uppercase',
+                        textTransform: 'lowercase',
                         fontWeight: 500,
                     }}
                 />

@@ -1,0 +1,19 @@
+.nav-bar-container {
+    display: flex;
+}
+
+.home-container {
+    flex: 1;
+}
+
+.option-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.social-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}

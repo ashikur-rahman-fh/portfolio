@@ -1,0 +1,9 @@
+.animator-container {
+    font-size: 30px;
+}
+
+.display-cursor {
+    padding-right: 2px;
+    border-right-width: 2px;
+    border-right-style: solid;
+}

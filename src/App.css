@@ -1,3 +1,7 @@
 .react-p5 {
   display: inline-block;
 }
+
+.outmost-container {
+  padding: 20px 80px;
+}

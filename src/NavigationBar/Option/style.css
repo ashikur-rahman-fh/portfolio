@@ -1,0 +1,22 @@
+.option-list-container {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.menu-option {
+    list-style: none;
+    font-weight: 500;
+}
+
+.menu-option a {
+    text-decoration: none;
+}
+
+.menu-option a:visited {
+    color: black;
+}
+
+.menu-option a:hover {
+    color: var(--primary-color);
+}

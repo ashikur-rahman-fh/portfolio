@@ -1,9 +1,32 @@
 import React from "react";
+import { get } from "lodash"
+
+import { MENU } from "./constants";
+
+import "./style.css";
 
 const Option = (props) => {
+    const renderMenuOptions = () => {
+        return Object.entries(MENU).map(([menuKey, menuOption]) => {
+            const displayText = get(menuOption, 'displayText');
+            const link = get(menuOption, 'link');
+
+            return (
+                <li
+                    key={menuKey.toString()}
+                    className="menu-option"
+                >
+                    <a href={link}>{displayText}</a>
+                </li>
+            );
+        });
+    };
+
     return (
         <div className="option-container">
-            Option
+            <ul className="option-list-container">
+                {renderMenuOptions()}
+            </ul>
         </div>
     );
 };

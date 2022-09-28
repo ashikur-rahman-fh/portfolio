@@ -5,6 +5,10 @@
   --hover-transition-duration: 125ms;
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 .app {
   font-family: 'Karla', sans-serif;
 }

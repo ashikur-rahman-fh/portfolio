@@ -1,0 +1,14 @@
+.social-logo:hover {
+    fill: var(--primary-color);
+    transition-duration: var(--hover-transition-duration);
+}
+
+.profile-list {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.profile-list-container {
+    display: flex;
+    justify-content: flex-end;
+}

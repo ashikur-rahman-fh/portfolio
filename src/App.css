@@ -1,7 +1,9 @@
 :root {
   --primary-color: rgb(29, 189, 247);
-}
+  --color-black: black;
 
+  --hover-transition-duration: 125ms;
+}
 
 .app {
   font-family: 'Karla', sans-serif;

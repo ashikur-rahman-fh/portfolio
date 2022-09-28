@@ -1,5 +1,6 @@
 :root {
   --primary-color: rgb(29, 189, 247);
+  --secondary-color: rgb(100, 255, 200);
   --color-black: black;
 
   --hover-transition-duration: 125ms;
@@ -7,6 +8,7 @@
 
 *, *::after, *::before {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .app {

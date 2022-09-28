@@ -1,0 +1,33 @@
+.programming-language-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-title-container {
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-title {
+    display: block;
+    padding-bottom: 2px;
+    width: 10%;
+    animation: section-title-animation linear 8s infinite normal;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+@keyframes section-title-animation {
+    0% {
+        width: 100%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
+    }
+  }

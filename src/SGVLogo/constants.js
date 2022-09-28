@@ -6,6 +6,10 @@ import { ReactComponent as HtmlLogo } from "../resource/logo/html.svg";
 import { ReactComponent as CssLogo } from "../resource/logo/css.svg";
 import { ReactComponent as DjangoLogo } from "../resource/logo/django.svg";
 import { ReactComponent as ReactLogo } from "../resource/logo/react.svg";
+import { ReactComponent as CSharpLogo } from "../resource/logo/csharp.svg";
+import { ReactComponent as BootstrapLogo } from "../resource/logo/bootstrap.svg";
+import { ReactComponent as MaterialUI } from "../resource/logo/materialui.svg";
+import { ReactComponent as SQLALchemyLogo } from "../resource/logo/sqlalchemy.svg";
 
 export const LOGO_KEY = {
     PYTHON: 'Python',
@@ -17,6 +21,10 @@ export const LOGO_KEY = {
     DJANGO: 'Django',
     REACT: 'React',
     DJANGO_REST: 'DjangoRest',
+    C_SHARP: 'CSharp',
+    BOOTSTRAP: 'Bootstrap',
+    MATERIAL_UI: 'MaterialUI',
+    SQL_ALCHEMY: 'SQLAlchemy',
 }
 
 export const LOGO_STORE = {
@@ -51,5 +59,21 @@ export const LOGO_STORE = {
     [LOGO_KEY.REACT]: {
         component: ReactLogo,
         text: 'ReactJS',
+    },
+    [LOGO_KEY.C_SHARP]: {
+        component: CSharpLogo,
+        text: 'C#',
+    },
+    [LOGO_KEY.BOOTSTRAP]: {
+        component: BootstrapLogo,
+        text: 'Bootstrap',
+    },
+    [LOGO_KEY.MATERIAL_UI]: {
+        component: MaterialUI,
+        text: 'React Material UI',
+    },
+    [LOGO_KEY.SQL_ALCHEMY]: {
+        component: SQLALchemyLogo,
+        text: 'SQLAlchemy',
     },
 };

@@ -6,7 +6,7 @@ import { LOGO_STORE } from "./constants";
 import "./style.css";
 
 const SVGLogo = (props) => {
-    const { componentKey, styleConfiguration, withText } = props;
+    const { componentKey, styleConfiguration, containerStyleConfiguration, withText } = props;
 
     const getLogoObject = () => {
         const logoObject = get(LOGO_STORE, componentKey);
@@ -32,7 +32,10 @@ const SVGLogo = (props) => {
     const logoText = getLogoText();
 
     return (
-        <div className="logo-text-container text-hover-style">
+        <div
+            className="logo-text-container text-hover-style"
+            style={{ ...containerStyleConfiguration }}
+        >
             <LogoComponent
                 className="svg-logo"
                 style={{ ...styleConfiguration }} 

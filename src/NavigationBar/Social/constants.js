@@ -2,6 +2,7 @@ import { ReactComponent as LinkedInLogo } from "../../resource/logo/linkedin.svg
 import { ReactComponent as GithubLogo } from "../../resource/logo/github.svg";
 import { ReactComponent as GmailLogo } from "../../resource/logo/gmail.svg";
 import { ReactComponent as FacebookLogo } from "../../resource/logo/facebook.svg";
+import { ReactComponent as YoutubeLogo } from "../../resource/logo/youtube.svg";
 
 import { PROFILE } from "../../constants";
 
@@ -23,6 +24,12 @@ export const SOCIAL_PROFILES = {
         link: `mailto:${PROFILE.EMAIL}`,
         alt: "Gmail",
         target: "",
+    },
+    YOUTUBE: {
+        LogoComponent: YoutubeLogo,
+        link: "https://www.youtube.com/channel/UC4VrGt8FLMlaCgjLtlSoSGA",
+        alt: "Youtube",
+        target: "blank",
     },
     FACEBOOK: {
         LogoComponent: FacebookLogo,

@@ -10,6 +10,14 @@ import { ReactComponent as CSharpLogo } from "../resource/logo/csharp.svg";
 import { ReactComponent as BootstrapLogo } from "../resource/logo/bootstrap.svg";
 import { ReactComponent as MaterialUI } from "../resource/logo/materialui.svg";
 import { ReactComponent as SQLALchemyLogo } from "../resource/logo/sqlalchemy.svg";
+import { ReactComponent as GitLogo } from "../resource/logo/git.svg";
+import { ReactComponent as GithubLogo } from "../resource/logo/github.svg";
+import { ReactComponent as BitBucketLogo } from "../resource/logo/bitbucket.svg";
+import { ReactComponent as ConflueneceLogo } from "../resource/logo/confluence.svg";
+import { ReactComponent as SlackLogo } from "../resource/logo/slack.svg";
+import { ReactComponent as JiraLogo } from "../resource/logo/jira.svg";
+import { ReactComponent as PostgresLogo } from "../resource/logo/postgres.svg";
+import { ReactComponent as VSCodeLogo } from "../resource/logo/vscode.svg";
 
 export const LOGO_KEY = {
     PYTHON: 'Python',
@@ -25,6 +33,14 @@ export const LOGO_KEY = {
     BOOTSTRAP: 'Bootstrap',
     MATERIAL_UI: 'MaterialUI',
     SQL_ALCHEMY: 'SQLAlchemy',
+    GIT: 'Git',
+    GITHUB: 'Github',
+    BIT_BUCKET: 'BitBucket',
+    CONFLUENCE: 'Confluence',
+    SLACK: 'Slack',
+    JIRA: 'Jira',
+    POSTGRES: 'Postgres',
+    VS_CODE: 'VSCode',
 }
 
 export const LOGO_STORE = {
@@ -75,5 +91,37 @@ export const LOGO_STORE = {
     [LOGO_KEY.SQL_ALCHEMY]: {
         component: SQLALchemyLogo,
         text: 'SQLAlchemy',
+    },
+    [LOGO_KEY.POSTGRES]: {
+        component: PostgresLogo,
+        text: 'PostgreSQL',
+    },
+    [LOGO_KEY.JIRA]: {
+        component: JiraLogo,
+        text: 'Jira',
+    },
+    [LOGO_KEY.SLACK]: {
+        component: SlackLogo,
+        text: 'Slack',
+    },
+    [LOGO_KEY.CONFLUENCE]: {
+        component: ConflueneceLogo,
+        text: 'Confluence',
+    },
+    [LOGO_KEY.BIT_BUCKET]: {
+        component: BitBucketLogo,
+        text: 'BitBucket',
+    },
+    [LOGO_KEY.GIT]: {
+        component: GitLogo,
+        text: 'Git',
+    },
+    [LOGO_KEY.GITHUB]: {
+        component: GithubLogo,
+        text: 'Github',
+    },
+    [LOGO_KEY.VS_CODE]: {
+        component: VSCodeLogo,
+        text: 'VS Code',
     },
 };

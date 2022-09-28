@@ -1,7 +1,13 @@
 import React from "react";
 import Languages from "./Languages";
 
-import { PROGRAMMING_LANGUAGES, MARKUP_LANGUAGES, FRAMEWORKS, SECTION_TITLE } from "./constants";
+import {
+    PROGRAMMING_LANGUAGES,
+    MARKUP_LANGUAGES,
+    FRAMEWORKS,
+    SECTION_TITLE,
+    TECHNOLOGIES,
+} from "./constants";
 
 import "./style.css";
 
@@ -25,6 +31,13 @@ const Skills = (props) => {
                 <Languages
                     title={FRAMEWORKS.TITLE}
                     languages={FRAMEWORKS.LANGUAGES}
+                />
+            </div>
+
+            <div className="technologies-container">
+                <Languages
+                    title={TECHNOLOGIES.TITLE}
+                    languages={TECHNOLOGIES.LANGUAGES}
                 />
             </div>
         </div>

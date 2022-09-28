@@ -31,3 +31,17 @@ export const FRAMEWORKS = {
         LOGO_KEY.SQL_ALCHEMY,
     ],
 };
+
+export const TECHNOLOGIES = {
+    TITLE: 'Technologies',
+    LANGUAGES: [
+        LOGO_KEY.GIT,
+        LOGO_KEY.GITHUB,
+        LOGO_KEY.POSTGRES,
+        LOGO_KEY.SLACK,
+        LOGO_KEY.BIT_BUCKET,
+        LOGO_KEY.CONFLUENCE,
+        LOGO_KEY.JIRA,
+        LOGO_KEY.VS_CODE,
+    ],
+};

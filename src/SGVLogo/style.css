@@ -8,3 +8,7 @@
     flex-direction: column;
     align-items: center;
 }
+
+.logo-text-container .text {
+    font-weight: 500;
+}

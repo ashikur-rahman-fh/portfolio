@@ -17,8 +17,3 @@
 .menu-option a:visited {
     color: var(--color-black);
 }
-
-.menu-option a:hover {
-    color: var(--primary-color);
-    transition-duration: var(--hover-transition-duration);
-}

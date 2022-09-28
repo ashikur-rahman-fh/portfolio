@@ -20,3 +20,8 @@
 .outmost-container {
   padding: 20px 80px;
 }
+
+.text-hover-style:hover {
+  color: var(--primary-color) !important;
+  transition-duration: var(--hover-transition-duration) !important;
+}

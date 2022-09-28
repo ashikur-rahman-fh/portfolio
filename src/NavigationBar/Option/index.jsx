@@ -16,7 +16,7 @@ const Option = (props) => {
                     key={menuKey.toString()}
                     className="menu-option"
                 >
-                    <a href={link}>{displayText}</a>
+                    <a className="text-hover-style" href={link}>{displayText}</a>
                 </li>
             );
         });

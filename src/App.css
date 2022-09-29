@@ -3,6 +3,9 @@
   --primary-color-light: rgba(29, 189, 247, 0.3);
   --secondary-color: rgb(100, 255, 200);
   --secondary-color-light: rgba(100, 255, 200, 0.3);
+  --third-color: rgb(212, 124, 247);
+  --third-color-light: rgba(212, 124, 247, 0.3);
+  
   --color-black: black;
 
   --hover-transition-duration: 125ms;

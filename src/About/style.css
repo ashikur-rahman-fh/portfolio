@@ -48,3 +48,37 @@
     height: 100%;
     width: 100%;
 }
+
+.about-container .dummy-circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    right: -50vw;
+    top: 18vh;
+}
+
+.dummy-circle-container .dummy-circle-child {
+    background-color: var(--primary-color);
+    width: 8px;
+    height: 8px;
+    margin: 5px;
+    border-radius: 100%;
+    animation: dummy-circle-child-animation 10s linear 0s infinite, forwards;
+}
+
+@keyframes dummy-circle-child-animation {
+    0% {
+        background-color: var(--primary-color);
+    }
+    17% {
+        background-color: var(--secondary-color);
+    }
+    50% {
+        background-color: var(--third-color);
+    }
+    88% {
+        background-color: var(--primary-color);
+    }
+}

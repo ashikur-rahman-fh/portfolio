@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d22f478e.css",
-    "main.js": "/portfolio/static/js/main.07e9d028.js",
+    "main.css": "/portfolio/static/css/main.c48d01f7.css",
+    "main.js": "/portfolio/static/js/main.df4bee62.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sqlalchemy.svg": "/portfolio/static/media/sqlalchemy.fcfdb27214f72e8aa30229772212dacc.svg",
+    "static/media/dp.png": "/portfolio/static/media/dp.19df4aa4d9ae254b7297.png",
     "static/media/postgres.svg": "/portfolio/static/media/postgres.6d3129da3f1900ded5afd8286e8e73ef.svg",
     "static/media/confluence.svg": "/portfolio/static/media/confluence.34d4e81af415d0920bc790239e2f34ca.svg",
     "static/media/django.svg": "/portfolio/static/media/django.1ea4071dc4c69766db46c45ab6bb5dea.svg",
@@ -28,12 +29,12 @@
     "static/media/html.svg": "/portfolio/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.a01deab289eb2ed40999ead4b8c47485.svg",
     "static/media/gmail.svg": "/portfolio/static/media/gmail.4f520c286581c7e59dfad73517871174.svg",
-    "main.d22f478e.css.map": "/portfolio/static/css/main.d22f478e.css.map",
-    "main.07e9d028.js.map": "/portfolio/static/js/main.07e9d028.js.map",
+    "main.c48d01f7.css.map": "/portfolio/static/css/main.c48d01f7.css.map",
+    "main.df4bee62.js.map": "/portfolio/static/js/main.df4bee62.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d22f478e.css",
-    "static/js/main.07e9d028.js"
+    "static/css/main.c48d01f7.css",
+    "static/js/main.df4bee62.js"
   ]
 }

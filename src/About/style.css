@@ -1,0 +1,50 @@
+.about-container {
+    display: flex;
+    position: relative;
+}
+
+.about-container .dummy-circle {
+    background-color: var(--secondary-color-light);
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    right: -300px;
+    top: -340px;
+}
+
+.bio-container {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    top: -10vh;
+}
+
+.bio-container .key-text {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.bio-container .detailed-text {
+    font-size: 20px;
+}
+
+.display-picture-container {
+    flex: 5;
+    overflow: hidden;
+    border-radius: 100% 10px 100% 100%;
+    height: 660px;
+    background-color: var(--primary-color-light);
+    z-index: 1;
+    min-width: 300px;
+}
+
+.display-picture {
+    height: 100%;
+    width: 100%;
+}

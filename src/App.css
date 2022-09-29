@@ -1,6 +1,8 @@
 :root {
   --primary-color: rgb(29, 189, 247);
+  --primary-color-light: rgba(29, 189, 247, 0.3);
   --secondary-color: rgb(100, 255, 200);
+  --secondary-color-light: rgba(100, 255, 200, 0.3);
   --color-black: black;
 
   --hover-transition-duration: 125ms;
@@ -13,6 +15,7 @@
 
 .app {
   font-family: 'Karla', sans-serif;
+  overflow: hidden;
 }
 
 .react-p5 {
@@ -26,4 +29,14 @@
 .text-hover-style:hover {
   color: var(--primary-color) !important;
   transition-duration: var(--hover-transition-duration) !important;
+}
+
+@media (max-width: 768px) {
+  .app {
+    overflow: auto;
+  }
+
+  .outmost-container {
+    padding: 8px;
+  }
 }

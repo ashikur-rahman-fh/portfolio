@@ -6,6 +6,7 @@
 .profile-list {
     list-style: none;
     margin-left: 40px;
+    z-index: 1000;
 }
 
 .profile-list-container {

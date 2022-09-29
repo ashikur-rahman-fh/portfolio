@@ -1,6 +1,7 @@
 import './App.css';
 import NavigationBar from './NavigationBar';
 import Skills from './Skills';
+import About from './About';
 
 const  App = (props) => {
   const { backgroundColor } = props;
@@ -14,6 +15,7 @@ const  App = (props) => {
     >
       
       <NavigationBar />
+      <About />
       <Skills />
     </div>
   );

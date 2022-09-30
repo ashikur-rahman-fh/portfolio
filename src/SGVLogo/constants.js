@@ -18,6 +18,9 @@ import { ReactComponent as SlackLogo } from "../resource/logo/slack.svg";
 import { ReactComponent as JiraLogo } from "../resource/logo/jira.svg";
 import { ReactComponent as PostgresLogo } from "../resource/logo/postgres.svg";
 import { ReactComponent as VSCodeLogo } from "../resource/logo/vscode.svg";
+import { ReactComponent as SEJobLogo } from "../resource/logo/workenosis.svg";
+import { ReactComponent as TrainerJobLogo } from "../resource/logo/worktrainer.svg";
+import { ReactComponent as WorkPlaceLogo } from "../resource/logo/workplace.svg";
 
 export const LOGO_KEY = {
     PYTHON: 'Python',
@@ -41,6 +44,9 @@ export const LOGO_KEY = {
     JIRA: 'Jira',
     POSTGRES: 'Postgres',
     VS_CODE: 'VSCode',
+    SE_JOB: 'SEJob',
+    TRAINER_JOB: 'TrainerJob',
+    WORKPLACE: 'Workplace',
 }
 
 export const LOGO_STORE = {
@@ -123,5 +129,17 @@ export const LOGO_STORE = {
     [LOGO_KEY.VS_CODE]: {
         component: VSCodeLogo,
         text: 'VS Code',
+    },
+    [LOGO_KEY.SE_JOB]: {
+        component: SEJobLogo,
+        text: 'Software Engineer',
+    },
+    [LOGO_KEY.TRAINER_JOB]: {
+        component: TrainerJobLogo,
+        text: 'Teaching/Coaching',
+    },
+    [LOGO_KEY.WORKPLACE]: {
+        component: WorkPlaceLogo,
+        text: 'Workplace',
     },
 };

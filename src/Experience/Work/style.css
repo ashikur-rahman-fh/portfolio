@@ -1,0 +1,75 @@
+.work-container {
+    display: flex;
+    padding: 16px;
+}
+
+.work-container .work-status {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.work-container .work-details {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.logo-designation-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-point {
+    padding: 4px;
+}
+
+.experience-logo:hover {
+    fill: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 4px;
+    transition-duration: 500ms;
+    border-radius: 100%;
+}
+
+.designation {
+    font-size: var(--font-medium);
+}
+
+.organization-detail-container {
+    padding: 4px 2px;
+}
+
+.organization-detail-container .duration {
+    text-align: center;
+    font-size: var(--font-small);
+}
+
+.organization-detail-container .organization {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.organization-detail-container .organization a {
+    color: var(--color-black);
+    text-decoration: none;
+    font-size: var(--font-medium);
+}
+
+.organization-detail-container .organization a:hover {
+    color: var(--color-black);
+    text-decoration: underline;
+}
+
+.organization-detail-container .domain {
+    font-weight: 500;
+    text-align: center;
+}
+
+.work-station-logo {
+    height: 28px;
+    width: 28px;
+    padding: 4px;
+}

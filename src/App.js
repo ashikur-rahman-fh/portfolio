@@ -1,7 +1,13 @@
 import './App.css';
-import NavigationBar from './NavigationBar';
-import Skills from './Skills';
-import About from './About';
+import {
+  Route,
+  Routes,
+  BrowserRouter,
+} from "react-router-dom";
+
+import AppLayout from './AppLayout';
+import HomePage from './HomePage';
+import RainFallLayout from './sketches/RainFallLayout';
 
 const  App = (props) => {
   const { backgroundColor } = props;
@@ -13,10 +19,14 @@ const  App = (props) => {
         backgroundColor: backgroundColor,
       }}
     >
-      
-      <NavigationBar />
-      <About />
-      <Skills />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/portfolio' element={ <AppLayout /> }>
+              <Route index element={ <HomePage /> }></Route>
+              <Route path="rain" element={ <RainFallLayout /> }></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

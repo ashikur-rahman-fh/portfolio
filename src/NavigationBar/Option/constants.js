@@ -1,18 +1,20 @@
+import { buildRoute } from "../../utility/helper"
+
 export const MENU = {
     ABOUT: {
         displayText: 'About',
-        link: '#about',
+        link: buildRoute('#about'),
     },
     EXPERIENCE: {
         displayText: 'Experience',
-        link: '#experience',
+        link: buildRoute('#experience'),
     },
     SKILL: {
         displayText: 'Skill',
-        link: '#skill',
+        link: buildRoute('#skill'),
     },
     RESUME: {
         displayText: 'Resume',
-        link: '#resume',
+        link: buildRoute('#resume'),
     }
 }

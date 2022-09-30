@@ -9,6 +9,8 @@ import AppLayout from './AppLayout';
 import HomePage from './HomePage';
 import RainFallLayout from './sketches/RainFallLayout';
 
+import { APP_ROUTE_PREFIX } from "./constants";
+
 const  App = (props) => {
   const { backgroundColor } = props;
 
@@ -21,7 +23,7 @@ const  App = (props) => {
     >
       <BrowserRouter>
         <Routes>
-          <Route path='/portfolio' element={ <AppLayout /> }>
+          <Route path={APP_ROUTE_PREFIX} element={ <AppLayout /> }>
               <Route index element={ <HomePage /> }></Route>
               <Route path="rain" element={ <RainFallLayout /> }></Route>
           </Route>

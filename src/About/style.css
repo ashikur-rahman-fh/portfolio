@@ -53,6 +53,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 150px;
+    min-width: 150px;
     height: 100px;
     position: relative;
     right: -50vw;

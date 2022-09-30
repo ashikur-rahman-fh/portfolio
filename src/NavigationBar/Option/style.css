@@ -18,3 +18,9 @@
 .menu-option a:visited {
     color: var(--color-black);
 }
+
+.option-list-container .menu-option .menu-link {
+    min-height: 32px;
+    display: inline-block;
+    align-items: center;
+}

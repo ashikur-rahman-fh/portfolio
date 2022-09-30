@@ -18,7 +18,7 @@ const About = (props) => {
     };
 
     return (
-        <div className="about-container outmost-container">
+        <div id="about" className="about-container outmost-container">
             <div className="dummy-circle"></div>
             <div className="dummy-circle-container">
                 {renderDummyChildCircles()}

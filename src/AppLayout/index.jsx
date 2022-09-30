@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 
 import NavigationBar from "../NavigationBar";
+import Footer from "../Footer";
 
 const AppLayout = (props) => {
 
@@ -9,6 +10,7 @@ const AppLayout = (props) => {
         <React.Fragment>
             <NavigationBar />
             <Outlet />
+            <Footer />
         </React.Fragment>
     );
 };

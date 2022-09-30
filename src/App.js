@@ -8,6 +8,7 @@ import {
 import AppLayout from './AppLayout';
 import HomePage from './HomePage';
 import RainFallLayout from './sketches/RainFallLayout';
+import Resume from './Resume';
 
 import { APP_ROUTE_PREFIX } from "./constants";
 
@@ -26,6 +27,7 @@ const  App = (props) => {
           <Route path={APP_ROUTE_PREFIX} element={ <AppLayout /> }>
               <Route index element={ <HomePage /> }></Route>
               <Route path="rain" element={ <RainFallLayout /> }></Route>
+              <Route path="resume" element={ <Resume /> }></Route>
           </Route>
         </Routes>
       </BrowserRouter>

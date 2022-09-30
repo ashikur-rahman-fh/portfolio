@@ -2,6 +2,7 @@ import React from "react";
 import { get } from "lodash"
 
 import { MENU } from "./constants";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -10,13 +11,22 @@ const Option = (props) => {
         return Object.entries(MENU).map(([menuKey, menuOption]) => {
             const displayText = get(menuOption, 'displayText');
             const link = get(menuOption, 'link');
+            const route = get(menuOption, 'route');
+
+            const renderRouteElement = () => {
+                if (route) {
+                    return <Link className="menu-link text-hover-style" to={link}>{displayText}</Link>
+                }
+
+                return <a className="menu-link text-hover-style" href={link}>{displayText}</a>
+            };
 
             return (
                 <li
                     key={menuKey.toString()}
                     className="menu-option"
                 >
-                    <a className="menu-link text-hover-style" href={link}>{displayText}</a>
+                    {renderRouteElement()}
                 </li>
             );
         });

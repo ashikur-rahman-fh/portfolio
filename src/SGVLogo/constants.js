@@ -22,6 +22,12 @@ import { ReactComponent as SEJobLogo } from "../resource/logo/workenosis.svg";
 import { ReactComponent as TrainerJobLogo } from "../resource/logo/worktrainer.svg";
 import { ReactComponent as WorkPlaceLogo } from "../resource/logo/workplace.svg";
 import { ReactComponent as UpArrowLogo } from "../resource/logo/uparrow.svg";
+import { ReactComponent as DXBallLogo } from "../resource/logo/dxball.svg";
+import { ReactComponent as CleaningCarLogo } from "../resource/logo/cleaningcar.svg";
+import { ReactComponent as NotepadLogo } from "../resource/logo/notepad.svg";
+import { ReactComponent as BusLogo } from "../resource/logo/bus.svg";
+import { ReactComponent as ShopLogo } from "../resource/logo/shop.svg";
+import { ReactComponent as MovieLogo } from "../resource/logo/movie.svg";
 
 export const LOGO_KEY = {
     PYTHON: 'Python',
@@ -49,6 +55,12 @@ export const LOGO_KEY = {
     TRAINER_JOB: 'TrainerJob',
     WORKPLACE: 'Workplace',
     UP_ARROW: 'UpArrow',
+    DX_BALL: 'DXBall',
+    CLEANING_CAR: 'ClearningCar',
+    NOTEPAD: 'Notepad',
+    BUS: 'Bus',
+    SHOP: 'Shop',
+    MOVIE: 'Movie',
 }
 
 export const LOGO_STORE = {
@@ -148,4 +160,28 @@ export const LOGO_STORE = {
         component: UpArrowLogo,
         text: 'Up Arrow',
     },
+    [LOGO_KEY.DX_BALL]: {
+        component: DXBallLogo,
+        text: 'DX-Ball',
+    },
+    [LOGO_KEY.CLEANING_CAR]: {
+        component: CleaningCarLogo,
+        text: 'Clearning Car',
+    },
+    [LOGO_KEY.NOTEPAD]: {
+        component: NotepadLogo,
+        text: 'Notepad',
+    },
+    [LOGO_KEY.BUS]: {
+        component: BusLogo,
+        text: 'Bus Ticket Management System',
+    },
+    [LOGO_KEY.SHOP]: {
+        component: ShopLogo,
+        text: 'Shop Mangement System',
+    },
+    [LOGO_KEY.MOVIE]: {
+        component: MovieLogo,
+        text: 'Movie Genre Prediction',
+    }
 };

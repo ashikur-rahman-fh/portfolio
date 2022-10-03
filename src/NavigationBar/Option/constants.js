@@ -17,5 +17,9 @@ export const MENU = {
         displayText: 'Resume',
         link: buildRoute('resume'),
         route: true,
-    }
+    },
+    PROJECTS: {
+        displayText: 'Projects',
+        link: buildRoute('#projects'),
+    },
 }

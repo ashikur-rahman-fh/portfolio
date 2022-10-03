@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e0baa794.css",
-    "main.js": "/portfolio/static/js/main.3a7b6f1d.js",
+    "main.css": "/portfolio/static/css/main.66474e45.css",
+    "main.js": "/portfolio/static/js/main.ada6ac16.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sqlalchemy.svg": "/portfolio/static/media/sqlalchemy.fcfdb27214f72e8aa30229772212dacc.svg",
     "static/media/dp.png": "/portfolio/static/media/dp.19df4aa4d9ae254b7297.png",
+    "static/media/dxball.svg": "/portfolio/static/media/dxball.ef4826a070aca78989907224761d9019.svg",
     "static/media/postgres.svg": "/portfolio/static/media/postgres.6d3129da3f1900ded5afd8286e8e73ef.svg",
     "static/media/workplace.svg": "/portfolio/static/media/workplace.7850ba996281e99cb1d94eb7a5a00097.svg",
+    "static/media/bus.svg": "/portfolio/static/media/bus.6ec51007770ceb91017d680d9182eefb.svg",
     "static/media/confluence.svg": "/portfolio/static/media/confluence.34d4e81af415d0920bc790239e2f34ca.svg",
     "static/media/workenosis.svg": "/portfolio/static/media/workenosis.4f16cb72dcb0183c2266583edaf542c1.svg",
     "static/media/django.svg": "/portfolio/static/media/django.1ea4071dc4c69766db46c45ab6bb5dea.svg",
     "static/media/worktrainer.svg": "/portfolio/static/media/worktrainer.0402538daef2003b6c7aaa884190a123.svg",
+    "static/media/cleaningcar.svg": "/portfolio/static/media/cleaningcar.c7aa4f3678502e798bab6e88da09cad3.svg",
     "static/media/css.svg": "/portfolio/static/media/css.19cd0dec3a45c84933cf89413da68d3e.svg",
     "static/media/cpp.svg": "/portfolio/static/media/cpp.2441702dffa95ca3c92c20816e386640.svg",
+    "static/media/notepad.svg": "/portfolio/static/media/notepad.27928560d4258870d305f940301f7cb4.svg",
     "static/media/python.svg": "/portfolio/static/media/python.d32e17a67e47af5af825d688825deb85.svg",
     "static/media/java.svg": "/portfolio/static/media/java.5386b56c3206b6bd70b1053534d73dc3.svg",
     "static/media/jira.svg": "/portfolio/static/media/jira.d3f6317e318db83fcd0c34dbfbca62aa.svg",
     "static/media/csharp.svg": "/portfolio/static/media/csharp.9c286f0304c08db19ccd9386e240ab41.svg",
     "index.html": "/portfolio/index.html",
     "static/media/slack.svg": "/portfolio/static/media/slack.b57cc4b9168913392236e1abe9207490.svg",
+    "static/media/shop.svg": "/portfolio/static/media/shop.290f2bc10aa446007eaffdbab5ceac3f.svg",
     "static/media/react.svg": "/portfolio/static/media/react.a060cbe85e50deda1d61452cee9de5b2.svg",
+    "static/media/movie.svg": "/portfolio/static/media/movie.c98c8cddcfbd6f50fbcbd0305f9e77f4.svg",
     "static/media/github.svg": "/portfolio/static/media/github.4cd3a2bc790226c346ae943ec1622139.svg",
     "static/media/bitbucket.svg": "/portfolio/static/media/bitbucket.d391ca23a0b7e45467c45487e8eb6449.svg",
     "static/media/javascript.svg": "/portfolio/static/media/javascript.081325c6f229605dce15142ddd948d6d.svg",
@@ -33,12 +39,12 @@
     "static/media/facebook.svg": "/portfolio/static/media/facebook.a01deab289eb2ed40999ead4b8c47485.svg",
     "static/media/gmail.svg": "/portfolio/static/media/gmail.4f520c286581c7e59dfad73517871174.svg",
     "static/media/uparrow.svg": "/portfolio/static/media/uparrow.afe1d99c6b3827db30b2a500e2a73940.svg",
-    "main.e0baa794.css.map": "/portfolio/static/css/main.e0baa794.css.map",
-    "main.3a7b6f1d.js.map": "/portfolio/static/js/main.3a7b6f1d.js.map",
+    "main.66474e45.css.map": "/portfolio/static/css/main.66474e45.css.map",
+    "main.ada6ac16.js.map": "/portfolio/static/js/main.ada6ac16.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0baa794.css",
-    "static/js/main.3a7b6f1d.js"
+    "static/css/main.66474e45.css",
+    "static/js/main.ada6ac16.js"
   ]
 }

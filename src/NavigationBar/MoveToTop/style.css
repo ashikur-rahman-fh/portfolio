@@ -1,0 +1,25 @@
+.move-to-top-container {
+    display: inline-block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+    box-shadow: 0 0 10px 5px var(--secondary-color-light) inset;
+    border-radius: 30%;
+}
+
+.move-to-top-container:hover {
+    border-radius: 50%;
+    transition-duration: 500ms;
+    box-shadow: 0 0 20px 3px var(--secondary-color) inset;
+}
+
+.move-to-top-button .up-arrow-logo {
+    height: 45px;
+    width: 48px;
+    fill: var(--primary-color);
+}
+
+.move-to-top-button .up-arrow-logo:hover {
+    transition-duration: 500ms;
+}

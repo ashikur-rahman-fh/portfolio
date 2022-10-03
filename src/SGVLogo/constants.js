@@ -21,6 +21,7 @@ import { ReactComponent as VSCodeLogo } from "../resource/logo/vscode.svg";
 import { ReactComponent as SEJobLogo } from "../resource/logo/workenosis.svg";
 import { ReactComponent as TrainerJobLogo } from "../resource/logo/worktrainer.svg";
 import { ReactComponent as WorkPlaceLogo } from "../resource/logo/workplace.svg";
+import { ReactComponent as UpArrowLogo } from "../resource/logo/uparrow.svg";
 
 export const LOGO_KEY = {
     PYTHON: 'Python',
@@ -47,6 +48,7 @@ export const LOGO_KEY = {
     SE_JOB: 'SEJob',
     TRAINER_JOB: 'TrainerJob',
     WORKPLACE: 'Workplace',
+    UP_ARROW: 'UpArrow',
 }
 
 export const LOGO_STORE = {
@@ -141,5 +143,9 @@ export const LOGO_STORE = {
     [LOGO_KEY.WORKPLACE]: {
         component: WorkPlaceLogo,
         text: 'Workplace',
+    },
+    [LOGO_KEY.UP_ARROW]: {
+        component: UpArrowLogo,
+        text: 'Up Arrow',
     },
 };
